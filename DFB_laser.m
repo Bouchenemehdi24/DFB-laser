@@ -130,7 +130,7 @@ sn1=1;
 
 
 %% % MAIN program
-D=0:0.1:150;                                                               % Drive current        
+D=0:1:150;                                                               % Drive current        
 qq=length(D);
 I=zeros(qq,1);
 power=zeros(qq,1);
